@@ -3,6 +3,13 @@
 This is just me playing with [encore.dev](https://encore.dev/) and [OpenAI](https://openai.com/) to see if I can make a
 chatbot that knows about my workplace.
 
+## TODO
+
+- Use encore.dev's database stuff to track conversations per Slack user so they can have the expected ChatGPT-style
+  conversation (rather than single messages)
+- Try to find a way to provide some sort of data about something particular to my workplace as context to the bot
+    - e.g. "Hey, what's the IP address for the TeamCity server?"
+
 ## The good
 
 - It's easy to spin up and get going
