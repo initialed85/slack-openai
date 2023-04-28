@@ -90,8 +90,6 @@ func handleResponseToRequest(w http.ResponseWriter, outputText string, status in
 //
 //encore:api public raw path=/oi
 func Oi(w http.ResponseWriter, req *http.Request) {
-	panic("oh no")
-
 	log.Printf("%#+v", req)
 
 	log.Printf(">>> Oi()")
